@@ -94,7 +94,7 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 
 Below is the correlation heatmap showing relationships among features:
 
-![Correlation Heatmap](images/correlation_heatmap.png)
+![Correlation Heatmap](assets/plots/correlation_heatmap.png)
 
 
 
