@@ -86,3 +86,13 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 - Python compiled files
 - Model files
 - Data files
+
+
+
+## 🌐 Deployed Project Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/images/home_page.png)
+
+### 📊 Dashboard
+![Dashboard](assets/images/result.png)
