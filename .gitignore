@@ -1,0 +1,18 @@
+# Ignore virtual environment directory
+env/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+
+# Ignore saved model files
+models/
+
+# Ignore data directories (raw and processed)
+data/
+
+# Ignore Jupyter notebook checkpoint files
+*.ipynb_checkpoints/
+
+# Ignore log files
+*.log

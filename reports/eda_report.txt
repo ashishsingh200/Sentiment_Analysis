@@ -1,0 +1,60 @@
+================================================================================
+COMPREHENSIVE EDA REPORT - CUSTOMER SENTIMENT ANALYSIS
+================================================================================
+
+
+1. DATASET OVERVIEW
+----------------------------------------
+Total Records: 2,000
+Time Period: 2023-04-28 to 2025-04-27
+Unique Users: 1,965
+Coumns: Username, Comment, Comment_Date, Likes, Comment_Length, Has_Typo, Slang_Presence, Sentiment, Comment_DayOfWeek, Comment_Month, Comment_Season, Words_per_Comment, Avg_Word_Length, Engagement_rate, Sentiment_Score
+
+2. DATA QUALITY CHECK
+----------------------------------------
+Missing Values: 
+ - Sentiment_Score: 417 (20.8%)
+
+3: BASIC STATISTICS
+----------------------------------------
+Numerical Features:
+                       Comment_Date        Likes  Comment_Length     Has_Typo  Slang_Presence  Words_per_Comment  Avg_Word_Length  Engagement_rate  Sentiment_Score
+  count                        2000  2000.000000     2000.000000  2000.000000     2000.000000        2000.000000      2000.000000      2000.000000      1583.000000
+  mean   2024-05-02 04:24:14.400000   248.533500        5.766500     0.100000        0.057000           5.766500         6.260768        45.217107        -0.432091
+  min           2023-04-28 00:00:00     0.000000        3.000000     0.000000        0.000000           3.000000         4.000000         0.000000        -2.000000
+  25%           2023-10-29 00:00:00   126.000000        5.000000     0.000000        0.000000           5.000000         5.285714        22.285714        -1.000000
+  50%           2024-05-09 00:00:00   244.000000        6.000000     0.000000        0.000000           6.000000         6.000000        43.200000         0.000000
+  75%           2024-11-02 00:00:00   369.000000        7.000000     0.000000        0.000000           7.000000         7.000000        64.500000         1.000000
+  max           2025-04-27 00:00:00   500.000000        8.000000     1.000000        1.000000           8.000000        10.250000       165.666667         1.000000
+  std                           NaN   142.361636        1.189405     0.300075        0.231901           1.189405         1.378123        28.617928         1.109791
+
+Categorical Features:
+           Username                    Comment Sentiment Comment_DayOfWeek Comment_Month Comment_Season
+  count        2000                       2000      2000              2000          2000           2000
+  unique       1965                        371         5                 7            12              5
+  top     mwilliams  Worst response time ever.     Happy         Wednesday       January          Rainy
+  freq            4                         14       433               318           194            512
+
+4. SENTIMENT ANALYSIS
+----------------------------------------
+Sentiment distribution:
+  - Happy: 433 (21.6%)
+  - Sad: 423 (21.1%)
+  - Pleased: 417 (20.8%)
+  - Neutral: 380 (19.0%)
+  - Angry: 347 (17.3%)
+
+5. KEY INSIGHTS
+----------------------------------------
+- Most common sentiment: Happy
+- Average comment length: 5.8 characters
+- Average likes per comment: 248.5
+- Comments with typos: 200 (10.0%)
+- Comments with slang: 114 (5.7%)
+
+6. RECOMMENDATIONS
+----------------------------------------
+- Consider sentiment analysis for customer service prioritization
+- Monitor temporal trends for seasonality effects
+- Investigate high-engagement comments for best practices
+- Analyze negative sentiment comments for improvement opportunities

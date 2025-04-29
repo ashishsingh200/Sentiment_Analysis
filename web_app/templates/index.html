@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Emotion Classifier </title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Emotion Classifier 💬</h1>
+        <form method="post">
+            <textarea name="comment" placeholder="Type your comment here..." required></textarea>
+            <button type="submit">Predict Emotion</button>
+        </form>
+
+        {% if prediction_clean %}
+        <div class="result">
+            <h2>Results:</h2>
+            <p><strong>Clean Model Prediction:</strong> {{ prediction_clean }}</p>
+            <p><strong>Noisy Model Prediction:</strong> {{ prediction_noisy }}</p>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

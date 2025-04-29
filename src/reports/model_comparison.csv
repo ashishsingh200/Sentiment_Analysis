@@ -1,0 +1,7 @@
+Model,CV_Mean,CV_Std,Test_Accuracy,Test_F1
+Logistic Regression,1.0,0.0,1.0,1.0
+Random Forest,1.0,0.0,1.0,1.0
+Gradient Boosting,1.0,0.0,1.0,1.0
+SVM,1.0,0.0,1.0,1.0
+XGBoost,1.0,0.0,1.0,1.0
+LightGBM,1.0,0.0,1.0,1.0
