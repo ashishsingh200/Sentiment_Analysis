@@ -94,5 +94,5 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 ### 🏠 Home Page
 ![Home Page](assets/images/home_page.png)
 
-### 📊 Dashboard
-![Dashboard](assets/images/result.png)
+### 📊 Result
+![Result](assets/images/result.png)
