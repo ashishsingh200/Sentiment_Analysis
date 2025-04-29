@@ -88,6 +88,15 @@ This project is licensed under the terms of the [MIT License](LICENSE).
 - Data files
 
 
+## 📈 Analysis
+
+# 🔍 Feature Correlation
+
+Below is the correlation heatmap showing relationships among features:
+
+![Correlation Heatmap](images/correlation_heatmap.png)
+
+
 
 ## 🌐 Deployed Project Screenshots
 

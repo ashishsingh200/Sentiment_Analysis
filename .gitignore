@@ -9,7 +9,7 @@ __pycache__/
 models/
 
 # Ignore data directories (raw and processed)
-data/
+
 
 # Ignore Jupyter notebook checkpoint files
 *.ipynb_checkpoints/
