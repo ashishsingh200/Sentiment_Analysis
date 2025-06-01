@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Load models (adjust the paths properly)
 clean_model_path = os.path.join('..','src', 'models', 'best_model_logistic_regression.pkl')
-noisy_model_path = os.path.join('..','src', 'models', 'logistic_regression_20250429_210939.pkl')
+noisy_model_path = os.path.join('..','src', 'models', 'logistic_regression_20250601_162503.pkl')
 
 # Load the models
 with open(clean_model_path, 'rb') as f:
